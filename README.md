@@ -21,7 +21,6 @@ Evaluation
 
 Interpretability
 
-Usage
 
 Results
 
@@ -98,25 +97,6 @@ Local explanations for individual predictions
 
 Key drivers: amount, merchant_category, international_flag
 
-🚀 Usage
-bash
-Copy
-Edit
-# Clone the repo
-git clone https://github.com/yourusername/aus-fraud-detection.git
-cd aus-fraud-detection
-
-# Install dependencies
-pip install -r requirements.txt
-Run the notebooks in Google Colab or locally
-
-Export models:
-
-xgb_fraud_model.joblib
-
-tabnet_fraud_model.zip
-
-(Optional) Deploy as API with FastAPI (template included)
 
 🏁 Results
 XGBoost and TabNet both achieved strong fraud detection metrics

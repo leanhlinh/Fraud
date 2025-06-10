@@ -58,6 +58,17 @@ Target: is_fraud (binary)
 📊 EDA & Feature Engineering
 Analyzed fraud rates across amount bands, merchant types, states, and transaction time
 
+![image](https://github.com/user-attachments/assets/1655b258-1d13-4330-99ac-c126f81f93e1)
+
+![image](https://github.com/user-attachments/assets/ec70514f-25ea-4a0e-9171-f07813adb314)
+
+![image](https://github.com/user-attachments/assets/e4db5ed1-b8c8-4384-ba3f-5a69e41577bd)
+
+![image](https://github.com/user-attachments/assets/f5911b3c-af52-417a-8a53-36776bfa1656)
+
+![image](https://github.com/user-attachments/assets/1737fc2f-2a32-4260-bb25-d098631708bd)
+
+
 Engineered domain-relevant features like:
 
 high_amount_flag
@@ -83,8 +94,15 @@ Hyperparameter tuning via cross-validation
 Metrics:
 
 ROC AUC, Precision-Recall AUC
+![image](https://github.com/user-attachments/assets/6e399264-d841-486b-ab5b-561b4eec0a84)
+
+![image](https://github.com/user-attachments/assets/b28fd6ff-83e6-4536-aa85-357cf77aec7c)
+
 
 Confusion Matrix, Classification Report
+
+![image](https://github.com/user-attachments/assets/90d7a1b4-28af-416d-8412-bf21575fdcfd)
+
 
 Evaluation on an imbalanced test set to simulate real-world deployment
 
@@ -101,7 +119,16 @@ Key drivers: amount, merchant_category, international_flag
 🏁 Results
 XGBoost and TabNet both achieved strong fraud detection metrics
 
+![image](https://github.com/user-attachments/assets/3fd1b641-efab-47e0-9294-7bccad47cfae)
+
+
 SHAP plots provided clear transparency — critical for regulatory compliance
+
+![image](https://github.com/user-attachments/assets/e65155e5-4e8b-4075-b909-f7e2d0e8651c)
+
+![image](https://github.com/user-attachments/assets/d14014e6-cb6d-4ed0-84f0-9258726e60cf)
+
+
 
 Full results with metrics and visuals are in the results/ folder
 
